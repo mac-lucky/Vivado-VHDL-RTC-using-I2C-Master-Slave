@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jun 15 19:32:04 2020
+# Process ID: 9580
+# Current directory: C:/Users/kubam/Desktop/PULEEEE/RTC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14876 C:\Users\kubam\Desktop\PULEEEE\RTC\RTC.xpr
+# Log file: C:/Users/kubam/Desktop/PULEEEE/RTC/vivado.log
+# Journal file: C:/Users/kubam/Desktop/PULEEEE/RTC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kubam/Desktop/PULEEEE/RTC/RTC.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/kubam/Desktop/PULEEEE/RTC/RTC_tb_behav.wcfg
+source RTC_tb.tcl
+close_sim

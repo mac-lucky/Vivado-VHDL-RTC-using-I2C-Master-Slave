@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RTC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RTC_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="80010001fs"></ZoomEndTime>
+      <Cursor1Time time="79597881fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/RTC_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/R_n" type="logic">
+      <obj_property name="ElementShortName">R_n</obj_property>
+      <obj_property name="ObjectShortName">R_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/ENA" type="logic">
+      <obj_property name="ElementShortName">ENA</obj_property>
+      <obj_property name="ObjectShortName">ENA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/ADDRESS" type="array">
+      <obj_property name="ElementShortName">ADDRESS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/DATA_WR" type="array">
+      <obj_property name="ElementShortName">DATA_WR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WR[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/DATA_RD" type="array">
+      <obj_property name="ElementShortName">DATA_RD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_RD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/ACK_ERROR" type="logic">
+      <obj_property name="ElementShortName">ACK_ERROR</obj_property>
+      <obj_property name="ObjectShortName">ACK_ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RTC_tb/uut/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+</wave_config>
